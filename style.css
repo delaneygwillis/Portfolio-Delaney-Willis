@@ -27,10 +27,13 @@ header {background-color:#EAFC88; }
 
 img {height: 700px; padding:10px;}
 
-.band 
-
-.container {padding:30px;}
+.container {padding:20px;}
 
 .center {display:block;  margin-right: auto; width: 50%;}
 
+#art {padding:5px;}
+
+#capstone {padding:40px;}
+
+#about {padding-left:80px; padding-right:80px; padding-bottom:80px;}
 
