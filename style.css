@@ -1,1 +1,36 @@
 /* ADD YOUR CUSTOM CSS TO THIS FILE */
+body {background-color: #FFFEEC; font-family: 'DM Sans', sans-serif; line-height: 1.5;}
+
+h1 {color:#CD97E5;}
+
+h1 {font-size: 40px; color: black; text-transform: uppercase; letter-spacing: 5px; }
+
+h2 {text-transform: uppercase; font-size: 30px;}
+
+h3 {font-size: 25px;}
+
+h4 {font-size:22px;}
+
+p {font-size: 20px;}
+
+div.container-fluid.footer {background-color: #EAFC88; padding: 50px;}
+
+h1 {color:#CD97E5;}
+
+header {background-color:#EAFC88; }
+
+#delaney {height: 600px; font-weight: bolder; background-color: #EAFC88; padding: 200px;}
+
+#projects {text-transform: uppercase;}
+
+#ux {color:#CD97E5; font-size: 30px;}
+
+img {height: 700px; padding:10px;}
+
+.band 
+
+.container {padding:30px;}
+
+.center {display:block;  margin-right: auto; width: 50%;}
+
+

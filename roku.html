@@ -11,59 +11,248 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- END LOADING BOOTSTRAP CSS -->
 
-    
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
   </head>
 
-  <body>
-    <header>
-      <h1>Delaney Willis</h1>
+<body>
+  <header>
+      <!--NAV BAR SECTION-->  
+      <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="artwork.html">Artwork</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" aria-current="page" href="ux_case_studies.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                UX Case Studies
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="coastal_cottages.html">Coastal Cottages Redesign</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="hope_distributed.html">Hope Distributed Redesign</a></li>
+                   <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="ecogo.html">EcoGo App</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="roku.html">Roku App Redesign</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+    <!--END OF NAV BAR SECTION-->
     </header>
+  
   <!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <!-- END LOADING BOOTSTRAP JAVASCRIPT -->
-  
-<!--NAV BAR SECTION-->  
-  <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar scroll</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="artwork.html">Artwork</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" aria-current="page" href="ux_case_studies.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            UX Case Studies
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="coastal_cottages.html">Coastal Cottages Redesign</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="hope_distributed.html">Hope Distributed Redesign</a></li>
-               <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="ecogo.html">EcoGo App</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="roku.html">Roku App Redesign</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Roku App Redesign</h2>
     </div>
   </div>
-</nav>  
-<!--END OF NAV BAR SECTION-->
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5">
+      <img src="images/roku.png" class="img-fluid" alt="Roku Logo Image">
+    </div>
+
+    <div class="col-lg-7">
+       <h2> Introduction:</h2>
+          <p>Almost everyone we know engages in some form of media consumption.<br>As technology continues to transform, it’s shifted how we consume this media and many of us now find ourselves using streaming platforms hosted on streaming sticks.<br>Because of its viewing relevancy in our culture and our already natural inclination to use convenient apps rather than “old school” methods, I’ve decided to redesign the Roku Remote App.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2> The Challenge and the Goal </h2>
+        <p> Opening the Roku Remote app and clicking through different features and getting familiar, I started to notice areas of inconvenience in its design which sparked the design question: <br> <b>How can the Roku Remote app be adjusted to have an accurate visual hierarchy to help users navigate it with clarity?</b></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12" id="empathize">
+          <h2>Empathize</h2>
+            <p>In order to further understand the user experience of this app I used <b>user flow charts, research,</b> and <b>personas</b> to aid in defining more accurate <b>user pain points.</b></p>
+        </div>
+      </div>
+    </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h3>Initial User Flow:</h3>
+        <p>The app opens to the home page filled with content. To go to the remote you click the third navigation tab at the bottom of the page.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <img style="height: 245px" src="images/roku_flow.png" alt="User flow">
+      </div>
+    </div>
+  </div>
+</div>
+
+         
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">         
+      <img src="images/r1.png" alt="Roku app screenshot">
+       <img src="images/r2.png" alt="Roku screenshot 2">
+    </div>
+    </div>
+  </div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h3> User Research:</h3>
+        <p>In order to conduct research I created a google survey with six questions, completed by 27 users. The questions were directed to define what users want most out of the Roku Remote app. <br> Two of the results that influenced my design process the most were:</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <img style="height: 260px" src="images/d1.png" alt="Piechart results">
+        <p>The pie chart above shows that <b>77.8% percent of users identify the remote feature of the app itself to be their primary use.</b> Which helped me identify that <b>the hierarchy and direction of the app didn't reflect the users primary need</b> considering the home screen is filled with content and the remote itself is the third tab listed for navigation.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <img style="height: 300px" src="images/d2.png" alt="Piechart result 2">
+        <p>The pie chart above notes that <b>88.9% of users prefer a simple design that has the main necessary features of the app.</b> This data showed that again, <b>what the Roku Remote app is offering is not in alignment with what users want from the app.</b> Roku offers a large amount of features and options for users, but an overwhelming majority has noted, it's not what they prefer.</p>
+
+        <a href="https://forms.gle/Py4jwAeFQJQVFbYh9"><b>Link to the full survey here</b></a>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid persona">
+  <div class="row">
+    <div class="col-lg-12">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Personas:</h3>
+              <img style="height:400px" src="images/steve.jpg" alt="Image of older man">
+      
+              <h4>Steve</h4> 
+                <p>A 60 year old male, recently brought his grandchildren over where they told him about the Roku remote app. Trying to stay young and with the times, Steve decides to download it and use that instead of his normal remote which he’s very familiar with. Steve uses the Roku Remote app and <b>immediately feels overwhelmed by the amount of options and content on the homescreen.</b> Steve expected to open the app and immediately know what to do. Instead Steve questions whether he would rather just use his physical remote.</p>
+
+              <img style="height:400px" src="images/woman.jpg" alt="College age woman">
+        
+              <h4>Amy</h4>
+                <p> A 20 years old female, is a college student at Virginia Commonwealth University. She just set up her room in her new apartment and bought a TV with a Roku. Amy likes to stream study music from her TV and uses the Roku Remote app to turn it on. Because of her busy schedule, Amy is not able to spend a lot of time watching TV so <b>when she opens the app and sees lots of content on the home page she often gets distracted. She wishes she could use the remote feature without immediately viewing content.</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h3>Pain Points</h3>
+        <h4>App Content</h4>
+          <p>Users showed that the extra content supplied on the home screen didn't align with their desire to have a more simple app.</p>
+        
+        <h4>App Direction</h4>
+          <p>Users primary interest was the remote feature and the extra content wasn't a primary reason why they got the app.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2> Explanation of Ideation Process</h2>
+        <p>After defining the user pain points, <b>my goal was to create an app with less distracting potentially unused content.</b> As well as limiting extra unnecessary features on the app, <b>I decided to make the remote feature the first part displayed</b> because users claimed it was their main motivator for downloading it.<br> In order to <b>visualize this</b>, I created user flows that depict a less distracting, quicker process where the remote is featured straight away, depicting a more user friendly experience.</p>
+
+        <h3>User Flow and Wireframe Redesign</h3>
+          <p>For this redesign, the home page opens to the remote feature and the user can go to extra features from there.</p>
+
+          <h4>User Flow for Redesign</h4>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h4>Wireframes</h4>
+      <img src="images/w1.png" alt="Wireframe redesign">
+        <img src="images/w2.png" alt="Wireframe redesign2">
+    </div>
+
+    <div class="col-lg-12">
+    <h4>Mockups of Redesign</h4>
+      <img src="images/m1.png" alt="Redesign mockup">
+       <img src="images/m2.png" alt="Redesign mockup 2">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p><b>Solution</b>: The hierarchy of user needs are being met in a more effective way because the app immediately shows the remote feature and the extra features have been limited and are now extra benefits of the app, not the initial focus.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Rationale and Reflection</h2>
+          <p>While working on this redesign, making every potential user feel comfortable while using the Roku Remote App was my biggest priority. Regardless of age and technological experience, the app should create an immediately clear and very usable feeling. Too much content can deter people away or make them feel overwhelmed, so I tried to keep that in mind throughout the entire redesign process.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid footer">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Contact Me</h2>
+            <h3>Email</h3>
+              <p>willisdg@dukes.jmu.edu.com</p>
+              <a class="btn btn-light" href="mailto:willisdg@dukes.jmu.edu" role="button" target="_blank"> Send me an email</a>
+        </div>
+
+        <div class="col-lg-6">
+          <h2> Check out my LinkedIn</h2>
+          <a class="btn btn-light" href="www.linkedin.com/in/delaney-willis-b073a1204" role="button" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
